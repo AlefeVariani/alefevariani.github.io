@@ -1,1 +1,48 @@
-Hello, World
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Alefe Variani</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-loading">
+	<div id="wrapper">
+		<section id="main">
+			<header>
+				<span class="avatar"><img src="images/alefe.jpg" alt="" /></span>
+				<h1>Alefe Variani</h1>
+				<p>Web Developer PHP</p>
+			</header>
+
+			<footer>
+				<ul class="icons">
+					<!-- <li><a target="_blank" href="https://github.com/AlefeVariani" class="fa-github">Git Hub</a></li> -->
+					<li><a target="_blank" href="https://twitter.com/alefe_variani" class="fa-twitter">Twitter</a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/alefe-variani-84785159/" class="fa-linkedin">Linkedin</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/alefevariani" class="fa-facebook">Facebook</a></li>
+					<li><a target="_blank" href="https://www.instagram.com/alefevariani" class="fa-instagram">Instagram</a></li>
+					<!-- <li><a target="_blank" href="https://plus.google.com/117825123848316834403" class="fa-google-plus">Google +</a></li> -->
+				</ul>
+			</footer>
+		</section>
+
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; Alefe Variani</li>
+			</ul>
+		</footer>
+	</div>
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function() {
+				document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+			});
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
+</body>
+</html>
